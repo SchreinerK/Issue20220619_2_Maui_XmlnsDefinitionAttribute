@@ -3,9 +3,14 @@
 	x:Class="Issue20220619_2.MainPage"
 	xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
 	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-	xmlns:my="http://MauiLib1">
+	xmlns:my1="http://MauiLib1"
+	xmlns:my2="clr-namespace:MauiLib1.NewFolder;assembly=MauiLib1"
+	xmlns:my1b="clr-namespace:MauiLib1;assembly=MauiLib1"
+	>
 
 	<VerticalStackLayout Spacing="25" Padding="30,0" VerticalOptions="Center">
-		<my:Class1/>
+		<my1:Class1/>
+		<my2:Class2/>
+		<my1b:Class1/>
 	</VerticalStackLayout>
 </ContentPage>

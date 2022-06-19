@@ -5,7 +5,12 @@ VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Issue20220619_2", "Issue20220619_2\Issue20220619_2.csproj", "{6A505D55-EBAD-42A6-8EDF-FED9853278A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiLib1", "MauiLib1\MauiLib1.csproj", "{CEF89FFD-9839-41C3-A664-A5F04C8DF53D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiLib1", "MauiLib1\MauiLib1.csproj", "{CEF89FFD-9839-41C3-A664-A5F04C8DF53D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8DF11FAE-B557-412B-9AFB-0C883F20C91E}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
